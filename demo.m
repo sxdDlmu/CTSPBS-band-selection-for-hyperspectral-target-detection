@@ -2,7 +2,7 @@ close all;clear;clc
 %% parameters
 K = 20;%number of selected bands
 detector_Name = 'CEM';
-method_Name = 'CDSP_MinV'; % CDSP_MinV; CDSP_MaxV
+method_Name = 'CDSP_MaxV'; % CDSP_MinV; CDSP_MaxV
 disp(['number of selected bands: ',num2str(K)]);
 
 %% load data
